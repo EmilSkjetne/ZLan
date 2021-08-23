@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(image/01_free_subtle_textures_apple_ios_linen_texture.jpg);
+    background-repeat: repeat;
+}
+
+
+/* ************** Iframe ************** */
+
+.iframe{
+    height: 45rem;
+    width: 45rem;
+    background-color: white;
+    margin-left: 33%;
+    margin-top: 2%  ;
+}
+
+
+/* ************** Meny Bokser ************** */
+
+.home, .omOss, .kontakt, .referanser{
+    height: 6rem;
+    width: 14rem;
+    background-color: #696969;
+    z-index: 10;
+    border: solid black 1px;
+    position: absolute;
+}
+
+.home{
+    top: 10%;
+    left: 25%;
+}
+
+.omOss{
+    top: 30%;
+    left: 25%;
+}
+
+.kontakt{
+    top: 50%;
+    left: 25%;
+}
+
+.referanser{
+    top: 70%;
+    left: 25%;
+}
