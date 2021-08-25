@@ -1,6 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    font-family: helvetica;
+    color: black;
 }
 
 body{
@@ -29,24 +32,35 @@ body{
     z-index: 10;
     border: solid black 1px;
     position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    left: 25%;
+    font-size: 32px;
 }
 
 .home{
     top: 10%;
-    left: 25%;
 }
 
 .omOss{
     top: 30%;
-    left: 25%;
 }
 
 .kontakt{
     top: 50%;
-    left: 25%;
 }
 
 .referanser{
     top: 70%;
-    left: 25%;
+}
+
+/* ************** Logo ************** */
+
+.image{
+    width: 8rem;
+    height: 8rem;
+    top: 75%;
+    left: 5rem;
+    position: absolute;
 }
