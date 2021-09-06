@@ -4,19 +4,27 @@
         <link rel="stylesheet" href="homeGradient.css">
         <script src="homeGradient.js"> </script>
     </head>
-    <body>
-        <div class="nav">
-            <nav class="navBar">
-                <div class="home">Home</div>   
+    <body onload="subMenu()">
+        <nav class="navBar">
+            <div class="home" id="home">Home</div>   
 
-                <div class="om">Om</div>
+            <div class="om">Om</div>
 
-                <div class="kontaktOss">Kontakt Oss</div>
+            <div class="kontaktOss" onclick="subMenu()">Kontakt Oss</div>
 
-                <div class="referanser">Referanser</div>
-            </nav>
+            <div class="referanser">Referanser</div>
+        </nav>
+
+        <div id="kontaktOssMenu">
+            <a class="navn" href="mailto:emil.skjetne@gmail.com?subject=kontkt">Emil Skjetne</a>
+            <br>
+            <a class="navn" href="mailto:emil.skjetne@gmail.com?subject=kontakt">Emil Nytrø </a>
+            <br>
+            <a class="navn" href="mailto:emil.skjetne@gmail.com?subject=kontakt">Stian Kolstad</a>
+            <br>
+            <a class="navn" href="mailto:emil.skjetne@gmail.com?subject=kontakt">Ahmed Alismail</a>
+
         </div>
-
 
 
     </body>

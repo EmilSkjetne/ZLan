@@ -3,6 +3,7 @@
     padding: 0px;
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
 }
 
 
@@ -42,4 +43,27 @@ body{
 
 .om:hover, .kontaktOss:hover, .home:hover, .referanser:hover{
     background-color: gray;
+}
+
+
+/*---------------------------------- Dropdown ----------------------------------*/
+
+#kontaktOssMenu{
+    height: 11rem;
+    width: 17.5%;
+    display: flex;
+    position: absolute;
+    background-image: linear-gradient(to top left, #22c1c3, #fdbb2d);
+    z-index: 10;
+    left: 50%;
+    top: 7rem;
+    border-radius: 0rem 0rem 1rem 1rem;
+    border: lightgray solid 1px;
+    flex-direction: column;
+}
+
+.navn{
+    margin: 0.5rem;
+    margin-left: 1.5rem;
+    font-size: 1.1rem;
 }
